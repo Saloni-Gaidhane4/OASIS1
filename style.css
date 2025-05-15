@@ -1,0 +1,181 @@
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ body {
+   font-family: 'Segoe UI', sans-serif;
+   line-height: 1.6;
+   background-color: #f9f9f9;
+   color: #333;
+ }
+ 
+ .hero {
+   background-image: url('images/beachimage.avif'); 
+   background-size: cover;
+   background-position: center;
+   color: white;
+   text-align: center;
+   padding: 100px 20px;
+ }
+ 
+ .hero h1 {
+   font-size: 3rem;
+   margin-bottom: 10px;
+ }
+ 
+ .hero h2 {
+   font-size: 1.5rem;
+   margin-bottom: 20px;
+ }
+ 
+ .hero button {
+   padding: 12px 24px;
+   font-size: 1rem;
+   background-color: #ff6b6b;
+   color: white;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+ }
+ 
+ .hero button:hover {
+   background-color: #ff4e4e;
+ }
+ .about {
+   padding: 60px 20px;
+   background-color: #fff;
+   text-align: center;
+ }
+ 
+ .about h1 {
+   font-size: 2rem;
+   margin-bottom: 20px;
+ }
+ 
+ .about p {
+   max-width: 700px;
+   margin: auto;
+   font-size: 1.1rem;
+   color: #555;
+ }
+ .attractions {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 40px;
+   gap: 20px;
+ }
+ 
+ .attraction-item {
+   background-color: #e8f0fe;
+   padding: 20px;
+   border-radius: 10px;
+   width: 250px;
+   text-align: center;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .attraction-item h3 {
+   font-size: 1.2rem;
+ }
+ 
+ .gallery {
+   padding: 60px 20px;
+   background-color: #f0f8ff;
+   text-align: center;
+ }
+ 
+ .gallery h2 {
+   font-size: 2rem;
+   margin-bottom: 30px;
+ }
+ 
+ .gallery-images {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+ }
+ 
+ .gallery-images img {
+   width: 250px;
+   border-radius: 10px;
+   object-fit: cover;
+ }
+ .testimonials {
+   padding: 60px 20px;
+   background-color: #fff0f5;
+   text-align: center;
+ }
+ 
+ .testimonials h2 {
+   font-size: 2rem;
+   margin-bottom: 30px;
+ }
+ 
+ .testimonials blockquote {
+   font-style: italic;
+   max-width: 600px;
+   margin: 20px auto;
+   color: #555;
+ }
+ .contact {
+   padding: 60px 20px;
+   background-color: #e0f7fa;
+   text-align: center;
+ }
+ 
+ .contact h2 {
+   font-size: 2rem;
+   margin-bottom: 20px;
+ }
+ 
+ .contact form {
+   max-width: 600px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+ }
+ 
+ .contact input, 
+ .contact textarea {
+   padding: 12px;
+   border-radius: 6px;
+   border: 1px solid #ccc;
+   font-size: 1rem;
+ }
+ 
+ .contact button {
+   padding: 12px;
+   font-size: 1rem;
+   background-color: #00796b;
+   color: white;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+ }
+ 
+ .contact button:hover {
+   background-color: #004d40;
+ }
+ footer {
+   padding: 20px;
+   background-color: #333;
+   color: white;
+   text-align: center;
+ }
+ 
+ footer a {
+   color: #4dd0e1;
+   text-decoration: none;
+   margin: 0 5px;
+ }
+ 
+ footer a:hover {
+   text-decoration: underline;
+ }
+ 
